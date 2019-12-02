@@ -1,53 +1,43 @@
-#!/usr/bin/env php
-<?php
-
-define('LARAVEL_START', microtime(true));
-
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
+#! / usr / bin / env php
+<? php
+define ( ' LARAVEL_START ' , microtime ( true ));
+/ *
+| ------------------------------------------------- -------------------------
+| Registrar o carregador automático
+| ------------------------------------------------- -------------------------
 |
-| Composer provides a convenient, automatically generated class loader
-| for our application. We just need to utilize it! We'll require it
-| into the script here so that we do not have to worry about the
-| loading of any our classes "manually". Feels great to relax.
+| O Composer fornece um carregador de classes conveniente e gerado automaticamente
+| para a nossa aplicação. Nós apenas precisamos utilizá-lo! Vamos exigir
+| no script aqui para que não tenhamos que nos preocupar com o
+| carregamento de qualquer uma de nossas classes "manualmente". É ótimo relaxar.
 |
-*/
-
-require __DIR__.'/vendor/autoload.php';
-
-$app = require_once __DIR__.'/bootstrap/app.php';
-
-/*
-|--------------------------------------------------------------------------
-| Run The Artisan Application
-|--------------------------------------------------------------------------
+* /
+exigir  __DIR__ . ' /vendor/autoload.php ' ;
+$ app  =  require_once  __DIR__ . ' /bootstrap/app.php ' ;
+/ *
+| ------------------------------------------------- -------------------------
+| Executar o aplicativo Artisan
+| ------------------------------------------------- -------------------------
 |
-| When we run the console application, the current CLI command will be
-| executed in this console and the response sent back to a terminal
-| or another output device for the developers. Here goes nothing!
+| Quando executamos o aplicativo de console, o comando CLI atual será
+| executado neste console e a resposta enviada de volta para um terminal
+| ou outro dispositivo de saída para os desenvolvedores. Aqui vai nada!
 |
-*/
-
-$kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
-
-$status = $kernel->handle(
-    $input = new Symfony\Component\Console\Input\ArgvInput,
-    new Symfony\Component\Console\Output\ConsoleOutput
+* /
+$ kernel  =  $ app -> make ( Illuminate \ Contracts \ Console \ Kernel :: class );
+$ status  =  $ kernel -> handle (
+    $ input  =  novo  Symfony \ Componente \ Console \ Entrada \ ArgvInput ,
+    novo  Symfony \ Componente \ Console \ Saída \ ConsoleOutput
 );
-
-/*
-|--------------------------------------------------------------------------
-| Shutdown The Application
-|--------------------------------------------------------------------------
+/ *
+| ------------------------------------------------- -------------------------
+| Encerrar o aplicativo
+| ------------------------------------------------- -------------------------
 |
-| Once Artisan has finished running, we will fire off the shutdown events
-| so that any final work may be done by the application before we shut
-| down the process. This is the last thing to happen to the request.
+| Quando o Artisan terminar de executar, dispararemos os eventos de desligamento
+| para que qualquer trabalho final possa ser feito pelo aplicativo antes de fecharmos
+| abaixo o processo. Esta é a última coisa a acontecer com a solicitação.
 |
-*/
-
-$kernel->terminate($input, $status);
-
-exit($status);
+* /
+$ kernel -> terminar ( $ input , $ status );
+exit ( $ status );
