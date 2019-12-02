@@ -1,0 +1,354 @@
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	
+	.pre-header{
+	width: 100%;
+}
+.pre-header h4{
+	text-align: center;
+	font-size: 18px;
+}
+.baner-area{
+	width: 100%;
+height: 550px;
+	background-image: url(../img/bg-intro.png);
+	background-size: cover;
+	}
+.baner-area h1{
+	margin-top: 140px;
+	margin-bottom: 20px;
+	width: 530px;
+	height: 150px;
+	font-size: 40px;
+	line-height: 60px;
+}
+.baner-area img{
+	margin-top: 125px;
+	margin-bottom: 125px;
+	width: 280px;
+	height: 280px;
+	margin-left: -40px;
+}
+
+.baner-area-produtos h1{
+    	max-width: 300px;
+    	margin: 0 auto;
+    	font-size: 42px;
+    	margin-top: 40px;
+    }
+    .port_produtos .bloco{
+    	 float: left;
+  width: 364px;
+  height: 336px;
+margin-left: 10px;
+    }
+
+
+.bloco2{
+  width: 364px;
+  height: 336px;
+  margin-bottom: 80px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+}
+
+
+.produtos-area h2{
+	font-size: 40px;
+}
+.produtos-area{
+	margin-top: 80px;
+	width: 100%;
+	height: 540px;
+}
+.produtos img{
+	margin-top: 80px;
+	width: 68px;
+	height: 68px;}
+
+.produtos p{
+	margin-top: 30px;
+	width: 240px;
+	height: 90px;
+	margin-bottom: 90px;
+	font-size: 14px;
+}
+.sobre-nos-area{
+	width: 100%;
+	height: 520px;
+	background: #504E4B;
+}
+.sobre-nos-area h2{
+	margin-top: 60px;
+	
+	font-size: 40px;
+}
+.sobre-nos-area h6{
+	margin-top: 40px;
+	width: 300px;
+}
+.sobre-nos-area button{
+	margin-top: 50px;
+}
+
+.arere img{
+	margin-top: 60px;
+	width: 440px;
+	height: 290px;
+}
+.form-contato{
+	width: 802px;
+	height: 500px;
+	margin-left: 0;
+}
+.form-contato h2{
+	font-size: 40px;
+}
+.endereco-contato h2{
+	font-size: 40px;
+}
+.endereco-contato h3{
+	font-size: 25px;
+}
+.form-group button{
+	margin-left: 140px;
+}
+}
+	
+	/*sobre */
+	.baner-area-sobre{
+		height: 141px;
+		background-image: url(../img/intro-quemsomos.png);
+		background-size: cover;
+	}
+	.baner-area-sobre h1{
+		margin-top: 47px;
+		margin-bottom:47px;
+		width: 100%;
+		height: 47px;
+		font-size: 40px;
+		text-align: center;
+	}
+	.sobre-nos-1{
+		width: 100%;
+		height: 205px;	
+	}
+	.sobre-nos-1 h2{
+		font-size: 35px;
+		margin-top: 60px;
+		width: 260px;
+		height: 60px;
+	}
+	.sobre-nos-1 h6{
+		margin-top: 40px;
+		width: 280px;
+		height: 115px;
+		color: #000000;
+	}
+	.sobre-nos-1 img{
+		margin-top: 60px;
+		width: 400px;
+		margin-left: 80px;
+		height: 290px;
+	}
+	.sobre-nos-2{
+		width: 100%;
+		height: 205px;
+	}
+	.sobre-nos-2 h2{
+		margin-left: -10px;
+		font-size: 35px;
+		margin-top: 60px;
+		width: 260px;
+		height: 60px;
+	}
+	.sobre-nos-2 h6{
+		margin-left: -10px;
+		margin-top: 40px;
+		width: 300px;
+		height: 115px;
+		color: #000000;
+	}
+	.sobre-nos-2 img{
+		margin-bottom: 60px;
+		margin-top: 60px;
+		width: 400px;
+		height: 400px;
+	}
+	/*fim sobre*/
+
+	/*produtos*/
+	.row_dois{
+  margin-top: 80px; 
+}
+.barrinha{
+  background: #E58725;
+  width: 180px;
+  height: 3px;
+  margin-top:60px;
+  margin-bottom: 15px;
+}
+
+.bloco{
+  float: left;
+  width: 364px;
+  height: 336px;
+margin-left: 10px;
+ 
+
+}
+
+.bloco h6{
+	color: #000;
+}
+.bloco2 img{
+	width: 330px;
+}
+.bloco2-img img{
+	margin-left: 15px;
+}
+.bloco2{
+	color: #000000;
+  width: 100px;
+  height: 336px;
+  margin-bottom: 80px;
+  padding-left:30px;
+  margin-left: 10px;
+}
+.titulo{
+	margin-bottom: 40px;
+}
+.baner-area-produtos{
+	width: 100%;
+	height: 141px;
+	background-image: url(../img/produtos.png);
+	background-size: cover;
+	text-align: center;
+	
+}
+.baner-area-produtos h1{
+	margin-top: 47px;
+	margin-bottom:47px;
+	width: 940px;
+	height: 47px;
+	font-size: 48px;
+	text-align: center;
+}
+.port_produtos{
+	width: 100%;
+        float: none;
+        margin: 0 auto;
+}
+	/*fim produtos*/
+
+	/*formulário*/
+
+	.form-contato{
+		width: 802px;
+		height: 500px;
+		margin-left: 0;
+	}
+	.form-contato h2{
+		font-size: 40px;
+	}
+	.endereco-contato h2{
+		font-size: 40px;
+	}
+	.endereco-contato h3{
+		font-size: 25px;
+	}
+	.form-group button{
+		margin-left: 140px;
+	}
+	/*fim formulário*/
+
+	/*footer*/
+	.footer-area{
+		width: 100%;
+		height: 40px;
+		background-color: #504E4B;
+	}
+	.footer-area h6{
+		padding-top: 10px;
+		float: right;
+	}
+	/*end footer*/
+
+	/*BANER CONTATO*/
+	.baner-area-contato{
+		width: 100%;
+		height: 141px;
+		background-image: url(../img/contato.png);
+		background-size: cover;
+	}
+	.baner-area-contato h1{
+		margin-top: 47px;
+		margin-bottom:47px;
+		width: 100%;
+		height: 47px;
+		font-size: 40px;
+		text-align: center;
+	}
+/*FIM BANER CONTATO*/
+
+
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+        margin-top: -50px;
+        margin-left: -60px;
+    text-align: right;
+    height: 330px;
+    width: 480px;
+   
+}
+.gallery .item {
+  height: 300px;
+    overflow: hidden;
+
+  width: 480px;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 6em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+}
+
+/*---------------------------------------FIM RESPONSÍVEL TABLET-----------------------------------------------------------*/

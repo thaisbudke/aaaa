@@ -1,0 +1,336 @@
+/*---------------------------------------RESPONSÍVEL-MOBILE-HOME -------------------------------------------------------*/
+@media only screen and (max-width: 767px){
+    
+		.pre-header,
+		.menu-area,
+		.contato-area,
+		.port_produtos, 
+		.bloco,
+		.bloco h2,
+		.bloco h6,
+		.form-contato h2,
+		.endereco-contato h3,
+		.endereco-contato h5, 
+		.bloco2, 
+		.form-group,
+		.form-contato,
+		.endereco-contato,
+		.footer-area{
+			width: 100%;
+			text-align: center;
+			float: none;
+			margin: 0 auto;
+			padding: 0 ;
+	    }
+	    .pre-header h4{
+	    	font-size: 14px;
+	    	margin: 0 auto;
+	    }
+    	.menu-area .logo-menu{
+	    	margin: 0 auto;
+	    	width: 160px;
+	    	height: 100px;
+	    	margin-top: 7px;
+	    }
+        .menu-area .list-menu{
+	    	margin: 0 auto;
+	    	text-align: center;
+	    }
+	    .menu-area .list-menu li{
+	    	width: 120px;
+	    	margin: 0 auto;
+	    	margin-top: 5px;
+	    }
+		
+		.baner-area{
+			margin-top: 10px;
+			width: 100%;
+			height: 300px;
+			background-image: url(../img/bg-intro.png);
+			background-size: cover;
+		}
+		.baner-area h1{
+			margin-top: 60px;
+			margin-bottom: 60px;
+			width: 300px;
+			height: 150px;
+			font-size: 25px;
+			text-align: center;
+			line-height: 30px;
+		}
+		.baner-area img{
+			display: none;
+		}
+		.baner-area h4{
+			margin-top: -90px;
+			font-size: 15px;
+			text-align: center;
+			width: 300px;
+		}
+		.produtos-area{
+			margin-top: 40px;
+			width: 100%;
+			height: 790px;
+		}
+		.produtos-area h2{
+			font-size: 25px;
+		}
+		.produtos img{
+			margin-top: 20px;
+			width: 64px;
+			height: 64px;
+			margin-left: 110px;
+		}
+		.produtos p{
+			margin-top: 30px;
+			width: 280px;
+			height: 90px;
+			margin-bottom: 20px;
+		}
+		
+		.produtos-area button{
+			margin-right: 20px;
+		}
+		.botao{
+			max-width: 300px;
+		}
+		.sobre-nos-area{
+			width: 100%;
+			height: 650px;
+			background: #504E4B;
+		}
+		.sobre-nos-area h2{
+			text-align: center;
+			font-size: 25px;
+		}
+		.sobre-nos-area h6{
+			margin-top: 40px;
+			width: 300px;
+			text-align: center;
+		}
+		.sobre-nos-area button{
+			max-width: 300px;
+			margin-right: 20px;
+		}
+		.arere {
+			max-width: 300px;
+		}
+		.arere img{
+			margin-top: 80px;
+			width: 250px;
+			height: 150px;
+			margin-left: -20px; 
+		}
+		/*sobre */
+		.baner-area-sobre{
+			margin-top: 20px;
+			width: 100%;
+		}
+		.baner-area-sobre h1{
+			margin-top: 47px;
+			margin-bottom:47px;
+			width: 300px;
+			height: 47px;
+			font-size: 48px;
+			text-align: center;
+		}
+		.sobre-nos-1 h2{
+			font-size: 35px;
+			margin-top: 60px;
+			width: 300px;
+			text-align: center;
+		}
+		.sobre-nos-1 h6{
+			margin-top: 40px;
+			color: #000000;
+			width: 300px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.sobre-nos-1 img{
+			margin-top: 60px;
+			width: 300px;
+			height: 190px;
+			margin-left: 0px;		}
+		.sobre-nos-2 h2{
+			font-size: 35px;
+			margin-top: 20px;
+			width: 300px;
+			margin-left: 50px;
+		}
+		.sobre-nos-2 h6{
+			padding-bottom: 200px;
+			color: #000000;
+			text-align: center;
+			width: 300px;
+			margin-left: 10px;
+		}
+		.sobre-nos-2 img{
+			margin-bottom: 50px;
+			margin-top: 60px;
+			width: 300px;
+			height: 300px;
+		}
+		/*fim sobre*/
+		
+		
+		.form-group button{
+			margin-left: -10px;
+			margin-top: 20px;
+
+		}
+		.form-contato h2{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.endereco-contato h2{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.endereco-contato h3{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.footer-area{
+			width: 100%;
+			height: 50px;
+		}
+		.bloco2 img{
+			margin-top: -60px;
+			width: 280px;
+			height: 200px;
+			margin-bottom: 30px;
+		}
+		.item img{
+			margin-left: -200px;
+		}
+		.titulo h2{
+			margin-top:-50px;
+			font-size: 30px;
+			margin-bottom: 10px;
+
+
+		}
+		.baner-area-contato{
+			margin-top: 20px;
+			width: 100%;
+		}
+		.baner-area-contato h1{
+			width: 300px;
+		}
+		.pre-header h4{
+			width: 250px;
+		}
+		.baner-area-produtos{
+			background-image: url(../img/produtos.png);
+			margin-top: 20px;
+			width: 100%;
+		}
+		.baner-area-produtos h1{
+			margin-top: 40px;
+			font-size: 35px;
+			width: 300px;
+		}
+		.barrinha{
+			display: none;
+		}
+		.lala{
+			max-width: 300px;
+		}
+		.lala h2{
+			max-width: 300px;
+		}
+		.lala h1{
+			max-width: 300px;
+		}
+		.botao2{
+			max-width: 300px;
+		}
+
+
+
+ .btn-home{
+			width: 180px;
+			height: 40px;
+			background-color: #E47336;
+			border: #fff;
+			font-family: "Roboto", sans-serif;
+		 	font-size: 18px;
+			font-weight: bold;
+			color: #fff; 
+			text-align: center;
+			line-height: 24px;
+		}
+
+
+
+
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  	position: relative;
+ 	margin-top: -120px;
+    text-align: right;
+    height:200px;
+    width: 280px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.gallery .item {
+	padding: 10px;
+  height: 200px;
+    overflow: hidden;
+margin-left: -70px;
+  width: 600px;
+  text-align: center;
+  
+  
+}
+.gallery .controls {
+	padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: 88px;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 6em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

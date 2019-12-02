@@ -1,0 +1,49 @@
+h1{
+  	font-family: "Roboto", sans-serif;
+ 	font-size: 52px;
+	font-weight: bold;
+	line-height: 64px;
+	text-transform: uppercase;
+	color: #fff;}
+h2{
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #E58725; }
+
+h3{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 30px;
+	font-weight: normal;
+	color: #504E4B; 
+	line-height: 30px;}
+
+h4{
+  	font-family: "Arial", sans-serif;
+ 	font-size: 18px;
+	font-weight: normal;
+	color: #fff; 
+	line-height: 24px;}
+h5{
+  	font-family: "Roboto", sans-serif;
+ 	font-size: 18px;
+	font-weight: normal;
+	color: #000; 
+	line-height: 24px;}
+
+h6{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	color:#fff;
+}
+p{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 14px;
+	font-weight: normal;
+	color: #000; 
+	line-height: 20px;
+}

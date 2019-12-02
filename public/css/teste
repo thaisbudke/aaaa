@@ -1,0 +1,444 @@
+h1{
+  	font-family: "Roboto", sans-serif;
+ 	font-size: 52px;
+	font-weight: bold;
+	line-height: 64px;
+	text-transform: uppercase;
+	color: #fff;}
+
+
+h2{
+	font-family: "Roboto", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #E58725; }
+
+h3{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 30px;
+	font-weight: normal;
+	color: #504E4B; 
+	line-height: 30px;}
+
+h4{
+  	font-family: "Roboto", sans-serif;
+ 	font-size: 18px;
+	font-weight: normal;
+	color: #fff; 
+	line-height: 24px;}
+h5{
+  	font-family: "Roboto", sans-serif;
+ 	font-size: 18px;
+	font-weight: normal;
+	color: #000; 
+	line-height: 24px;}
+
+h6{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	color:#fff;
+}
+p{
+	font-family: "Roboto", sans-serif;
+ 	font-size: 14px;
+	font-weight: normal;
+	color: #000; 
+	line-height: 20px;
+}
+
+@media only screen and (min-width: 960px) {
+
+/*pre-header*/
+.pre-header{
+	width: 100%;
+	height: 50px;
+	background-color: #504E4B;
+}
+.pre-header h4{
+	margin-top: 14px;
+}
+/*end pre-header*/
+
+/*header menu area*/
+.menu-area{
+	width: 100%;
+	height: 100px;
+}
+.logo-menu{
+	width: 180px;
+	height: 100px;
+}
+.list-menu{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+.list-menu li{
+	display: inline-block;
+   margin-left: 25px;
+
+	margin-top: 40px;
+	text-decoration: none;
+
+}
+.list-menu li a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+	
+	text-decoration: none;
+}
+.list-menu li a:hover {
+	color:#E58725;
+}
+.active{
+	color:#000;
+}
+/*end header*/
+/*baner area*/
+.baner-area{
+	width: 100%;
+	height: 550px;
+	background-image: url(../img/bg-intro.png);
+	background-size: cover;
+	
+}
+.baner-area h1{
+	margin-top: 140px;
+	margin-bottom: 20px;
+	width: 530px;
+	height: 150px;
+}
+.baner-area h4{
+	width: 380px;
+	height: 75px;
+}
+.baner-area img{
+	margin-top: 86px;
+	margin-bottom: 86px;
+	width: 380px;
+	height: 380px;
+}
+
+.baner-area-sobre{
+	width: 100%;
+	height: 141px;
+	background-image: url(../img/intro-quemsomos.png);
+	background-size: cover;
+	
+}
+.baner-area-sobre h1{
+	margin-top: 47px;
+	margin-bottom:47px;
+	width: 940px;
+	height: 47px;
+	font-size: 48px;
+	text-align: center;
+}
+
+
+
+/* produtos area*/
+.produtos-area{
+	margin-top: 120px;
+	width: 100%;
+	height: 730px;
+}
+.produtos img{
+	margin-top: 105px;
+	width: 88px;
+	height: 88px;}
+
+.produtos p{
+	margin-top: 30px;
+	width: 280px;
+	height: 90px;
+	margin-bottom: 90px;
+}
+
+/* sobre nos area*/
+.sobre-nos-area{
+	width: 100%;
+	height: 520px;
+	background: #504E4B;
+}
+.sobre-nos-area h2{
+	margin-top: 60px;
+	width: 360px;
+	height: 60px;
+}
+.sobre-nos-area h6{
+	margin-top: 40px;
+	width: 380px;
+	height: 115px;
+}
+.sobre-nos-area img{
+	padding-left: 40px;
+	margin-top: 60px;
+	width: 440px;
+	height: 290px;
+}
+	
+
+.sobre-nos-area button{
+	margin-top: 50px;
+}
+.sobre-nos-1{
+	width: 100%;
+	height: 205px;
+	
+}
+.sobre-nos-1 h2{
+	margin-top: 60px;
+	width: 360px;
+	height: 60px;
+}
+.sobre-nos-1 h6{
+	margin-top: 40px;
+	width: 380px;
+	height: 115px;
+	color: #000000;
+}
+.sobre-nos-1 img{
+	margin-top: 60px;
+	width: 580px;
+	height: 290px;
+}
+.sobre-nos-1 button{
+	margin-top: 50px;
+}
+
+/*end sobre nos area*/
+
+/* contato area */
+
+.contato-area{
+	background-image: url(../img/bg-madeira.png);
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
+}
+.form-group{
+	margin-top: 40px;
+}
+.endereco-contato{
+	width: 480px;
+	height: 370px;
+	margin-left: 140px;
+}
+
+.endereco-contato h3{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.endereco-contato h5{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.endereco-contato img{
+	width: 64px;
+	height: 64px;
+	margin-right: 15px;
+}
+.form-group input{
+	display: block;
+	width: 100%;
+	height: 24px;
+	background: #C4C4C4;
+	color: #000;
+	padding: 7px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	margin-bottom: 40px;
+}
+.form-group textarea{
+	display: block;
+	width: 100%;
+	height: 120px;
+	background: #C4C4C4;
+	color: #000;
+	padding: 7px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	margin-bottom: 20px;
+}
+.form-group button{
+	margin-left: 222px;
+}
+.form-contato{
+	width: 802px;
+	height: 500px;
+	margin-left: 40px;
+}
+/*end contato*/
+
+/*footer*/
+.footer-area{
+	width: 100%;
+	height: 40px;
+	background-color: #504E4B;
+}
+.footer-area h6{
+	padding-top: 10px;
+	float: right;
+}
+/*end footer*/
+
+/*btn home*/
+.btn-home{
+	width: 180px;
+	height: 40px;
+	background-color: #E47336;
+	border: #fff;
+	font-family: "Roboto", sans-serif;
+ 	font-size: 18px;
+	font-weight: bold;
+	color: #fff; 
+	line-height: 24px;
+}
+
+.row_dois{
+  margin-top: 80px; 
+}
+.barrinha{
+  background: #E58725;
+  width: 180px;
+  height: 3px;
+  margin-top:60px;
+  margin-bottom: 15px;
+}
+
+.bloco{
+  float: left;
+  width: 380px;
+  height: 336px;
+margin-left: 10px;
+ 
+
+}
+.bloco h6{
+	color: #000;
+}
+
+
+.bloco{
+  float: left;
+  width: 380px;
+  height: 336px;
+margin-left: 10px;
+ 
+
+}
+.bloco h6{
+	color: #000;
+}
+
+.bloco2{
+	color: #000000;
+  width: 380px;
+  height: 500px;
+  margin-bottom: 80px;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  
+}
+.titulo{
+	margin-bottom: 40px;
+}
+.baner-area-produtos{
+	width: 100%;
+	height: 141px;
+	background-image: url(../img/produtos.png);
+	background-size: cover;
+	
+}
+.baner-area-produtos h1{
+	margin-top: 47px;
+	margin-bottom:47px;
+	width: 940px;
+	height: 47px;
+	font-size: 48px;
+	text-align: center;
+}
+.baner-area-contato{
+	width: 100%;
+	height: 141px;
+	background-image: url(../img/contato.png);
+	background-size: cover;
+	
+}
+.baner-area-contato h1{
+	margin-top: 47px;
+	margin-bottom:47px;
+	width: 940px;
+	height: 47px;
+	font-size: 48px;
+	text-align: center;
+}
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+        margin-top: -50px;
+        
+    text-align: right;
+    height: 330px;
+    width: 480px;
+   
+}
+.gallery .item {
+  		height: 300px;
+    overflow: hidden;
+
+  width: 480px;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+
+
+.gallery .controls {
+  position: absolute;
+  margin-left: -40px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 6em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
